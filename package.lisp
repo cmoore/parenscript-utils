@@ -2,4 +2,11 @@
 
 (defpackage #:parenscript-utils
   (:use #:cl
-        #:parenscript))
+        #:parenscript)
+  (:export #:gebi
+           #:ffilter
+           #:fmap
+           #:_
+           #:gebi
+           #:-=
+           #:+=))

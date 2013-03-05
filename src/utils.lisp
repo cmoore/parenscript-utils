@@ -8,7 +8,7 @@
 (defpsmacro -= (variable decrement-by)
   `(setf ,variable (- ,variable ,decrement-by)))
 
-(defpsmacro g-e-b-i (element-id)
+(defpsmacro gebi (element-id)
   `((@ document get-Element-By-Id) ,element-id))
 
 ;; underscore.js specific
